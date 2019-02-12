@@ -1,0 +1,44 @@
+{
+  "name": "random_practice",
+  "version": "1.0.0",
+  "description": "h1. Random Practice This repo is a collection of different practice exercises.",
+  "main": "index.js",
+  "scripts": {
+    "build-client": "webpack --mode development",
+    "build-client-watch": "webpack -w --mode development",
+    "start-dev": "npm run build-client-watch & npm run start",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wadetgong/random_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wadetgong/random_practice/issues"
+  },
+  "homepage": "https://github.com/wadetgong/random_practice#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
