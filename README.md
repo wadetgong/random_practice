@@ -1,5 +1,5 @@
 ## Random Practice
-This repo is a collection of different practice exercises.
+This repo is a collection of different practice exercises for Fullstack Academy mentees.
 
 ## Getting Started
 1. Clone repo: `git clone https://github.com/wadetgong/random_practice.git`
